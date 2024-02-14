@@ -1,0 +1,124 @@
+/* .dataContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 846.23px;
+    max-height: 734px;
+}
+
+.dataRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dataRow:first-child {
+    margin-top: 0;
+}
+
+
+.MuiTable-root {
+    border-collapse: separate;
+    border-spacing: 0 50px;
+    border: transparent;
+    padding: 12px 52.76px 11px 40.1px;
+    box-shadow: inset 0px -2em 0px 0px rgb(241, 241, 241);
+    overflow: scroll;
+    /* background-color: #313131; 
+
+}
+
+.MuiTable-root th,
+.MuiTable-root td {
+ border:0;
+ border-right:1px solid black
+}
+
+.MuiPaper-root{
+    overflow: scroll;
+}
+.MuiTable-root tr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+} */
+
+
+.previewContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 870.23px;
+    max-height: 734px;
+    overflow: scroll;
+    background-color: #202020;
+    box-shadow: inset 0px -2em 0px 0px rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: transparent;
+    overflow-x: auto;
+
+
+}
+
+.previewContainer::-webkit-scrollbar {
+    display: block;
+    width: 2px;
+}
+
+.previewRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    width: 100%;
+
+    background-color: rgba(157, 152, 152, 0.2);
+    color: white;
+    padding: 12px;
+    max-width: 846.23px;
+
+}
+
+.previewCol {
+    width: 25%;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.name,
+.quantity,
+.gross {
+    border-right: 1px solid grey;
+}
+
+.grossRed {
+    color: #D94111
+}
+
+.grossGreen {
+    color: #118F4B
+}
+
+.nameIcon {
+    padding-right: 33.67px;
+}
+
+.quantityIcon {
+    padding-right: 38px;
+}
+
+.grossIcon {
+    padding-right: 25.32px;
+}
+
+.evalIcon {
+    padding-right: 26.38px;
+}
+
+.previewRow:first-child {
+    margin-top: 0;
+}
