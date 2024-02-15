@@ -1,0 +1,15 @@
+.industryFiltersCol {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: fit-content;
+    padding: 3px;
+    transition: .4s;
+    box-shadow: 0;
+    font-family: "Poppins"
+}
+
+.MuiFormControlLabel-label {
+    font-size: 13px !important;
+
+}

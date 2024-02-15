@@ -1,0 +1,35 @@
+.industryFiltersCol {
+    width: fit-content;
+    border-left: .76px solid rgb(255, 255, 255);
+    font-family: "Poppins";
+}
+
+.gridItemContent:hover svg path {
+    fill: black;
+
+}
+
+.gridItemContent:hover {
+    background-color: #53ACFF;
+    color: black;
+
+}
+
+
+.gridItemContent {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 3px;
+    gap: 8px;
+    color: white;
+    transition: .4s;
+    cursor:pointer
+}
+
+
+.MuiAccordionSummary-expandIconWrapper svg path{
+    fill:white
+}

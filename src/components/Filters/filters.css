@@ -1,0 +1,70 @@
+    .filtersContainer {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-top: 26px;
+        padding: 17px 24px 22px 25px;
+        font-family: "Poppins";
+        color: white;
+        background-color: #181818;
+    }
+
+    .filtersHeaderText {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .appliedFiltersHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 9px;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+
+    .appliedFiltersHeader>span:first-child {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: #979797;
+        
+    }
+
+    .filtersStock {
+        margin-top: 7px;
+        display: flex;
+        font-family: "Poppins";
+        flex-direction: column;
+    }
+
+    .stockHeaderText {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        margin-left: 16px;
+    }
+
+    .appliedFiltersContent {
+        background-color: #202020;
+        border-radius: 6.88px;
+        height: 50px;
+    }
+
+    .MR-filters,
+    .SA-filters {
+        margin-left: 23px;
+        margin-top: 24px;
+    }
+
+
+    .deleteIcon,.clearFilters {
+        cursor: pointer;
+
+    }
+    

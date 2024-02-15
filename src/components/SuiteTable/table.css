@@ -49,7 +49,6 @@
 .previewContainer {
     display: flex;
     flex-direction: column;
-    max-width: 870.23px;
     max-height: 734px;
     overflow: scroll;
     background-color: #202020;
@@ -71,12 +70,11 @@
     display: flex;
     flex-direction: row;
     margin-top: 16px;
-    width: 100%;
+    min-width: 870px;
 
     background-color: rgba(157, 152, 152, 0.2);
     color: white;
     padding: 12px;
-    max-width: 846.23px;
 
 }
 
