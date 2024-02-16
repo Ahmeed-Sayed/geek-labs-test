@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import SuiteTable from "./components/SuiteTable";
 import React, { useState } from "react";
 import Filters from "./components/Filters";
+import { Grid } from "@mui/material";
 function App() {
   const [activeTab, setActiveTab] = useState("Merger Arbitrage");
 
@@ -12,20 +13,16 @@ function App() {
   return (
     <>
       {/* <Navbar /> */}
-      <div
-        className="appContainer"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          backgroundColor: "#202020",
-        }}
-      >
-        <Header />
-        <SuiteTable />
-        <Filters />
-       
-      </div>
+    
+        <Grid container spacing={4} pl={15.75} >
+          <Grid item md={8}>
+            <Header />
+            <SuiteTable />
+          </Grid>
+          <Grid item md={4} py={3.25}>
+            <Filters />
+          </Grid>
+        </Grid>
     </>
   );
 }

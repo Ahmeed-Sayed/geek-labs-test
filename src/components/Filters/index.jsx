@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import { Box, Grid, Typography } from "@mui/material";
 import { TextField, InputAdornment, IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import X from "./x.svg?react";
 export default function Filters() {
   const [filtersSet, setFiltersSet] = useState(new Set());

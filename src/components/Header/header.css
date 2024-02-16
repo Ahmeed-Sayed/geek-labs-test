@@ -7,22 +7,10 @@
     color: white;
 }
 
-.searchField {
-    margin: 36px 11px 39px 28px;
-    padding: 8px 19.23px 8.8px 17.18px;
-    background-color: #313131;
-    width: 611px;
-    max-height: 38px;
-    border-radius: 5px;
-    font-size: 15px;
-    color: white;
-    font-family: "Poppins"
-}
 
 .headerText {
     font-size: 48px;
     font-weight: 700;
-    line-height: 72px;
     letter-spacing: 0px;
     border-left: 5px solid #53ACFF ;
     padding-left: 14px;
