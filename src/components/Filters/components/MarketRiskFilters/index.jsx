@@ -59,7 +59,6 @@ export default function MarketRiskFilters() {
               sx={{ fontFamily: "Poppins", fontWeight: "700" }}
               fontSize={"14px"}
             >
-              {" "}
               Market Cap
             </Typography>
           </AccordionSummary>

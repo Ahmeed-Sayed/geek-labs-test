@@ -11,8 +11,6 @@ import Communication from "../../icons/communication.svg?react";
 import Industrials from "../../icons/industrials.svg?react";
 import Utilities from "../../icons/utilities.svg?react";
 import Financials from "../../icons/financials.svg?react";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -58,7 +56,7 @@ export default function IndustryFilters({ addFilter }) {
           backgroundColor: "#202020",
           boxShadow: 0,
         }}
-        defaultExpanded={true} 
+        defaultExpanded={true}
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

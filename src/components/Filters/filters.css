@@ -7,6 +7,7 @@
         color: white;
         background-color: #181818;
         min-height: 783px;
+        border-radius: 8px;
     }
 
     .filtersHeaderText {
