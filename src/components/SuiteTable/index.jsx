@@ -8,14 +8,13 @@ import moneyHigh from "./icons/moneyHigh.png";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
 export default function SuiteTable() {
   return (
     <div className="previewContainer">
       {data &&
         data.map((row) => {
           return (
-            <Accordion className="previewRow" disableGutters>
+            <Accordion className="previewRow" disableGutters key={row.id}>
               <AccordionSummary classes={{ expanded: "expnd" }}>
                 <div className="previewCol name">
                   <img className="nameIcon" src={priceTag} />

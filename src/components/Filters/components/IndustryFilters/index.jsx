@@ -36,17 +36,17 @@ export default function IndustryFilters({ addFilter }) {
   const classes = useStyles();
 
   const industryFilters = [
-    { id: 1, icon: HealthCare, name: "Health Care" },
-    { id: 2, icon: It, name: "IT" },
-    { id: 3, icon: Materials, name: "Materials" },
-    { id: 4, icon: Communication, name: "Communication" },
-    { id: 5, icon: Energy, name: "Energy" },
-    { id: 6, icon: Industrials, name: "Industrials" },
-    { id: 7, icon: ConsumerDiscrete, name: "Consumer Discretionary" },
-    { id: 8, icon: Utilities, name: "Utilites" },
-    { id: 9, icon: ConsumerStaples, name: "Consumer Staples" },
-    { id: 10, icon: Financials, name: "Financials" },
-    { id: 11, icon: RealState, name: "Real State" },
+    { id: 9283461, icon: HealthCare, name: "Health Care" },
+    { id: 9283462, icon: It, name: "IT" },
+    { id: 9283463, icon: Materials, name: "Materials" },
+    { id: 9283464, icon: Communication, name: "Communication" },
+    { id: 9283465, icon: Energy, name: "Energy" },
+    { id: 9283466, icon: Industrials, name: "Industrials" },
+    { id: 9283467, icon: ConsumerDiscrete, name: "Consumer Discretionary" },
+    { id: 9283468, icon: Utilities, name: "Utilites" },
+    { id: 9283469, icon: ConsumerStaples, name: "Consumer Staples" },
+    { id: 92834610, icon: Financials, name: "Financials" },
+    { id: 92834611, icon: RealState, name: "Real State" },
   ];
 
   return (

@@ -34,14 +34,14 @@ export default function MarketRiskFilters() {
     setValue(event.target.value);
   };
   const marketCap = [
-    { id: 1, name: "Micro" },
-    { id: 2, name: "Small" },
-    { id: 3, name: "Large" },
+    { id: 524611, name: "Micro" },
+    { id: 2624412, name: "Small" },
+    { id: 634413, name: "Large" },
   ];
   const riskLevel = [
-    { id: 1, name: "Low Risk" },
-    { id: 2, name: "Mid Risk" },
-    { id: 3, name: "High Risk" },
+    { id: 635231, name: "Low Risk" },
+    { id: 342642, name: "Mid Risk" },
+    { id: 36453, name: "High Risk" },
   ];
   return (
     <Grid container spacing={2} sx={{ backgroundColor: "#202020" }}>
